@@ -1,0 +1,61 @@
+body {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+canvas {
+  /* all four are needed to support most browsers */
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.bordered {
+  border: 1px solid black
+}
+
+#feedbackDiv {
+  height: 100px;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: large;
+}
+
+.inlineSvg {
+  height: 35px;
+  width: 40px;
+  display: inline;
+}
+
+.bottomCell {
+  padding: 0px;
+  width: 100px;
+  max-width: 100px;
+  height: 100px;
+  text-align: right;
+}
+
+.mapCell {
+  border: 1px solid black;
+  padding: 0px;
+  width: 100px;
+  max-width: 100px;
+  height: 100px;
+}
+
+.barrierBottom {
+  border-bottom: 5px solid black;
+}
+
+.barrierRight {
+  border-right: 5px solid black;
+}
+
+#outputDiv {
+  color: white;
+  background-color: #262626;
+  font-family: monospace;
+  overflow: scroll;
+}
